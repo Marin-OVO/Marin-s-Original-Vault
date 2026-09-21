@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/CS61B.md",
+                "file": "数字图像处理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS61B"
+              "title": "数字图像处理"
             }
           },
           {
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CS61B.md",
+                "file": "数字图像处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CS61B.md",
+                "file": "数字图像处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CS61B.md",
+                "file": "数字图像处理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,12 +233,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ed8cf79738ea10b7",
+  "active": "dfef0c7047cf5311",
   "lastOpenFiles": [
-    "d848411306c72b3a6c808114063393d8.png",
-    "CS/CS61B.md",
-    "CS/CS168.md",
+    "CS/EE120.md",
     "CS/CS186.md",
+    "数字图像处理.md",
+    "CS/CS61A.md",
+    "CS/CS61B.md",
+    "Configs.md",
+    "d848411306c72b3a6c808114063393d8.png",
+    "CS/CS168.md",
     "CS/CS61C.md",
     "Tools.md",
     "Github项目：All In RAG.md",
@@ -246,12 +250,10 @@
     "LeetCode Hot100.md",
     "CS/CS50.md",
     "CS/6.S081.md",
-    "Configs.md",
     "Figs/Pasted image 20260911222337.png",
     "Figs/Pasted image 20260911224310.png",
     "Figs/Pasted image 20260915001330.png",
     "Figs/Pasted image 20260915141432.png",
-    "CS/CS61A.md",
     "Figs",
     "欢迎.md",
     "CS"
