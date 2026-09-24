@@ -1,3 +1,11 @@
+---
+date: 2026-09-22
+tags:
+  - SSH
+  - Git
+  - Github
+  - Markdown
+---
 # SSH
 需要自己电脑生成一对公钥和私钥
 1. ls -al ~/.ssh 查看本地ssh配置
@@ -34,4 +42,25 @@
 3. git fetch origin main 查看远程仓库情况
    git diff HEAD origin/main
    git merge origin/main
-# Linux
+# Markdown
+$\sum$ 求和
+$\sum_{i=1}^{n} x_i$
+$\prod$ 连乘
+$\int$ 积分
+$\infty$ 无穷
+$\sqrt{x}$ 根号
+$\frac{a}{b}$ 分数
+$x^2$ 上标
+$x_i$ 下标
+$\alpha$ α
+$\beta$ β
+$\theta$ θ
+$\pi$ π
+$\leq$ ≤
+$\geq$ ≥
+$\neq$ ≠
+$\approx$ ≈
+$\in$ ∈
+$\notin$ ∉
+$\rightarrow$ →
+$$ F_1 = \frac{2PR}{P+R} $$

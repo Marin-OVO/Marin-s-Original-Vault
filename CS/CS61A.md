@@ -52,3 +52,20 @@ lambda x: x * x
 # Lecture 7 
 **回溯**
 # Lecture 8
+```python
+def delay(arg):
+	print('delayed')
+	def g():
+		return arg
+	return g
+
+delay(delay)()(6)()
+```
+
+```python
+def horse(mask):
+	horse = mask
+	def mask(horse):
+		return horse
+	return horse(mask)
+```

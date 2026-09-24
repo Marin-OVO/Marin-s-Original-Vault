@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数字图像处理.md",
+                "file": "CS/CS61A.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数字图像处理"
+              "title": "CS61A"
             }
           },
           {
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数字图像处理.md",
+                "file": "CS/CS61A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数字图像处理.md",
+                "file": "CS/CS61A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数字图像处理.md",
+                "file": "CS/CS61A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -235,19 +235,20 @@
   },
   "active": "dfef0c7047cf5311",
   "lastOpenFiles": [
-    "CS/EE120.md",
-    "CS/CS186.md",
+    "LeetCode Hot100.md",
+    "Tools.md",
+    "Linux.md",
+    "Configs.md",
     "数字图像处理.md",
     "CS/CS61A.md",
-    "CS/CS61B.md",
-    "Configs.md",
-    "d848411306c72b3a6c808114063393d8.png",
     "CS/CS168.md",
+    "CS/CS186.md",
+    "CS/EE120.md",
+    "CS/CS61B.md",
+    "d848411306c72b3a6c808114063393d8.png",
     "CS/CS61C.md",
-    "Tools.md",
     "Github项目：All In RAG.md",
     "Github项目：Hello Agent.md",
-    "LeetCode Hot100.md",
     "CS/CS50.md",
     "CS/6.S081.md",
     "Figs/Pasted image 20260911222337.png",

@@ -42,3 +42,27 @@ def threeSum(self, nums: list[int]) -> list[list[int]]:
 **双向遍历**
 **单调栈**
 **双指针**
+
+# 3.无重复字符的最长子串
+**字典**
+**集合set()**
+1. python
+```python
+
+```
+
+# 438. 找到字符串中所有字母异位词
+**滑动窗口**
+**字母表**
+1. python
+```python
+class Solution:
+    def findAnagrams(self, s: str, p: str) -> List[int]:
+
+```
+
+# 560. 和为K的子数组
+**前缀和**
+
+# 239. 滑动窗口最大值
+**双端队列**
