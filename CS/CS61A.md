@@ -67,5 +67,51 @@ def horse(mask):
 	horse = mask
 	def mask(horse):
 		return horse
-	return horse(mask)
+	return horse(mask) # return mask(2)
 ```
+
+**装饰器**
+```python
+def my_decorator(func):
+    def wrapper():
+        print("函数开始执行")
+        func()
+        print("函数执行结束")
+
+    return wrapper
+
+@my_decorator
+def hello():
+    print("Hello")
+
+# 等价于
+def hello(): 
+	print("Hello") 
+	
+	
+hello = my_decorator(hello)
+```
+# Lecture 9 
+
+# 作业
+## hw
+## lab
+```python
+# return直接返回字符串, 而print直接打印还能拼接
+>>> def welcome():
+...     print('Go')
+...     return 'hello'
+...
+>>> def cal():
+...     print('Bears')
+...     return 'world'
+...
+>>> welcome()
+Go
+'hello'
+>>> print(welcome(), cal())
+Go
+Bears
+hello world
+```
+## proj
