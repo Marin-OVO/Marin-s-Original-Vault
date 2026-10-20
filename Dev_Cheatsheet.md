@@ -160,3 +160,5 @@ copy *_693.png .\newdir\
 # 设置项目路径
 set PYTHONPATH=%CD%;%PYTHONPATH%
 ```
+
+## WinFR

@@ -91,10 +91,119 @@ def hello():
 	
 hello = my_decorator(hello)
 ```
-# Lecture 9 
+# Lecture 9 递归
+```python
+def print_all(x)
+	print(x)
+	return print_all
+```
 
+```python
+def split(n):
+	return n // 10, n % 10
+	
+def sum_digits(n):
+	if n < 10:
+		return n
+	else:
+		all_but_last, last = split(n)
+		return sum_digits(all_but_last) + last
+```
+1. def 语句
+2. 终止条件
+3. 终止条件不进行递归
+4. 其他条件进行递归
+# Lecture 10 树递归
+```python
+def inverse_cascade(n):
+	grow(n)
+	print(n)
+	shrink(n)
+
+def f_then_g(f, g, n):
+	if n:
+		f(n)
+		g(n)
+
+grow = lambda n: f_then_g(grow, print, n // 10)
+shrink = lambda n: f_then_g(print, shrink, n // 10)
+```
+
+```text
+count(5, 3)
+├── 使用3 → count(2, 3)
+│   ├── 使用3 → count(-1, 3)
+│   │   └── 0
+│   │
+│   └── 不使用3 → count(2, 2)
+│       ├── 使用2 → count(0, 2)
+│       │   └── 1
+│       │
+│       └── 不使用2 → count(2, 1)
+│           ├── 使用1 → count(1, 1)
+│           │   ├── 使用1 → count(0, 1)
+│           │   │   └── 1
+│           │   └── 不使用1 → count(1, 0)
+│           │       └── 0
+│           │
+│           └── 不使用1 → count(2, 0)
+│               └── 0
+│
+└── 不使用3 → count(5, 2)
+    ├── 使用2 → count(3, 2)
+    │   ├── 使用2 → count(1, 2)
+    │   │   ├── 使用2 → count(-1, 2)
+    │   │   │   └── 0
+    │   │   └── 不使用2 → count(1, 1)
+    │   │       ├── 使用1 → count(0, 1)
+    │   │       │   └── 1
+    │   │       └── 不使用1 → count(1, 0)
+    │   │           └── 0
+    │   │
+    │   └── 不使用2 → count(3, 1)
+    │       ├── 使用1 → count(2, 1)
+    │       │   ├── 使用1 → count(1, 1)
+    │       │   │   ├── 使用1 → count(0, 1)
+    │       │   │   │   └── 1
+    │       │   │   └── 不使用1 → count(1, 0)
+    │       │   │       └── 0
+    │       │   └── 不使用1 → count(2, 0)
+    │       │       └── 0
+    │       └── 不使用1 → count(3, 0)
+    │           └── 0
+    │
+    └── 不使用2 → count(5, 1)
+        ├── 使用1 → count(4, 1)
+        │   ├── 使用1 → count(3, 1)
+        │   │   └── ...
+        │   └── 不使用1 → count(4, 0)
+        │       └── 0
+        └── 不使用1 → count(5, 0)
+            └── 0
+```
+# Lecture 11 数组 队列
+**递归>迭代**
+```python
+## 数组拼接
+[2, 7] + digits * 2
+
+list()
+
+[x + 1 for x in odds if 25 % x == 0]
+```
+# Lecture 12 
+# Lecture 13
 # 作业
 ## hw
+```python
+def make_repeater(f, n):
+	def repeater(x):
+		if n == 0:
+			return f(x)
+		else:
+			return f(make_repeater(f, n - 1)(x))
+	return repeater
+```
 ## lab
 ```python
 # return直接返回字符串, 而print直接打印还能拼接

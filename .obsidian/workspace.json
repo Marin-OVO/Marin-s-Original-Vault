@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1efb22f4fada0b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/CS168.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CS168"
-            }
-          },
-          {
-            "id": "99d751d314f93779",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/CS168.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CS168"
-            }
-          },
-          {
             "id": "dfef0c7047cf5311",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Database.md",
+                "file": "Knowledge/C字符串.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database"
+              "title": "C字符串"
+            }
+          },
+          {
+            "id": "1138913f173d059d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Med/医学心理学.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "医学心理学"
             }
           }
         ],
-        "currentTab": 2
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -128,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Database.md",
+                "file": "Knowledge/C字符串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Database.md",
+                "file": "Knowledge/C字符串.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -190,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Database.md",
+                "file": "Knowledge/C字符串.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,42 +204,48 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "dfef0c7047cf5311",
+  "active": "ed8cf79738ea10b7",
   "lastOpenFiles": [
-    "Backend/Auth.md",
-    "数字图像处理.md",
-    "Info.md",
-    "Dev_Cheatsheet.md",
-    "Projects/Github项目：All In RAG.md",
-    "Frontend/React.md",
-    "Frontend/JavaScript.md",
-    "Frontend/CSS.md",
-    "Frontend/HTML.md",
-    "Backend/Redis.md",
-    "Backend/Database.md",
-    "Backend/Spring.md",
-    "Backend/FastAPI.md",
-    "Projects",
-    "Frontend",
-    "Backend",
-    "Configs.md",
-    "Projects/LeetCode Hot100.md",
-    "Tools.md",
-    "Linux.md",
+    "Knowledge/Python 到 C++ 指南.md",
+    "CS/CS231N.md",
+    "Knowledge",
+    "CS/CS106L.md",
+    "CS/CS106B.md",
+    "CS/CS61C.md",
     "CS/CS61A.md",
     "CS/CS61B.md",
-    "CS/CS61C.md",
+    "Dev_Cheatsheet.md",
+    "Med/医学心理学.md",
+    "Projects/snake-game.md",
+    "Med/人体寄生虫学.md",
+    "Med",
+    "[[Pasted image 20261010161803.png.md",
+    "未命名.md",
+    "Knowledge/C字符串.md",
+    "CS/CS50.md",
+    "CS/6.S081.md",
     "CS/CS168.md",
     "CS/CS186.md",
     "CS/EE120.md",
+    "Frontend/CSS.md",
+    "Figs/Pasted image 20261010162346.png",
+    "Figs/Pasted image 20261010162353.png",
+    "Figs/Pasted image 20261010161736.png",
+    "Pasted image 20261010161803.png",
+    "Pasted image 20261010161748.png",
+    "Figs/Pasted image 20261009162242.png",
+    "Frontend/JavaScript.md",
+    "Info.md",
+    "Linux.md",
+    "Frontend/TypeScript.md",
+    "Frontend/HTML.md",
+    "Projects",
+    "Frontend",
+    "Backend",
     "d848411306c72b3a6c808114063393d8.png",
-    "Projects/Github项目：Hello Agent.md",
-    "CS/CS50.md",
-    "CS/6.S081.md",
     "Figs/Pasted image 20260911222337.png",
     "Figs/Pasted image 20260911224310.png",
     "Figs/Pasted image 20260915001330.png",
-    "Figs/Pasted image 20260915141432.png",
     "Figs",
     "CS"
   ]

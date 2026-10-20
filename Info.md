@@ -13,6 +13,45 @@ tags:
 |        **C#/.NET 全栈**        | React / Angular / Blazor |        ASP.NET Core        |   SQL Server / PostgreSQL    |    企业软件、微软生态很强    |
 |          **PHP 全栈**          |       Vue / React        |     Laravel / Symfony      |            MySQL             | Web 建站、电商、CMS 仍很多 |
 |         **Ruby 全栈**          |     React / Hotwire      |       Ruby on Rails        |          PostgreSQL          |  海外创业公司、快速开发较常见   |
+# 全栈就业路线
+
+Frontend
+│
+├── HTML
+├── CSS
+├── JavaScript
+├── TypeScript
+├── React
+├── Vite
+├── React Router
+└── Axios / Fetch
+        │
+        │ HTTP / REST
+        ▼
+Backend
+│
+├── Java
+├── Maven
+├── Spring Boot
+├── MyBatis / JPA
+├── Spring Security
+├── Spring Cloud
+└── Kafka / RabbitMQ
+        │
+        ▼
+Data
+│
+├── MySQL
+└── Redis
+        │
+        ▼
+Engineering
+│
+├── Git
+├── Linux
+├── Docker
+├── Nginx
+└── CI/CD
 # 数字图像处理
 **DPI = 300 PX/Inch 点每英寸**
 **PPI**
